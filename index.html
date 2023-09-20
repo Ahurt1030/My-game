@@ -1,0 +1,70 @@
+<!-- Hidden inputs -->
+
+<button class="hidden" id="turnLeft"></button>
+<button class="hidden" id="turnRight"></button>
+<button class="hidden" id="cannonAngle"></button>
+<input  class="hidden" id="shoot" type="checkbox">
+
+<!-- Controllers layer -->
+
+<div class="controllers">
+  
+  <p>Scene</p>
+  <div class="controllers_smallLabels">
+    <label for="turnLeft"><<</label>
+    <label for="turnRight">>></label>
+  </div>
+  
+  <div class="controllers_cannon">
+    <p>Cannon</p>
+    <label for="cannonAngle"  class="controllers_cannonAngle">Angle<br><small>(click and hold)</small></label>
+    <label for="shoot" class="controllers_shoot"></label>   
+  </div> 
+
+</div>
+
+<!-- Game elements -->
+
+<div class="game">
+  <div class="cameraRotate_left">
+    <div class="cameraRotate_right">
+
+      <div class="player">
+        <div class="player_base">
+          <div class="player_base-top"></div>
+          <div class="player_base-bottom"></div>
+          <div class="player_base-front"></div>
+          <div class="player_base-back"></div>
+          <div class="player_base-left"></div>
+          <div class="player_base-right"></div>
+        </div>
+        <div class="player_cannon">
+          <div class="player_cannon-top"></div>
+          <div class="player_cannon-bottom"></div>
+          <div class="player_cannon-front"></div>
+          <div class="player_cannon-back"></div>
+        </div>
+      </div>
+      
+      <div class="cube_container">
+        <div class="cube">
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div>
+        </div>
+
+      </div>
+      
+      <div class="floor"></div>
+
+    </div>
+  </div>
+</div>
